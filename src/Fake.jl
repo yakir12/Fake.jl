@@ -17,4 +17,12 @@ function fake2()
     FileIO.save("a.pdf", scene)
 end
 
+function fake3()
+    scene = Scene(; show_axis = false)
+    lines!(scene, rand(10))
+    linesegments!(scene, rand(10) .+ 1)
+    poly!(scene, Circle(Point2f0(0, 4), 1f0))
+    FileIO.save("a.pdf", scene)
+end
+
 end
