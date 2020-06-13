@@ -3,6 +3,12 @@ uuid = "d73b5ffd-5272-48a9-96ff-8386bd2bfe39"
 authors = ["yakir12 <12.yakir@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+MakieLayout = "5a521ce4-ebb9-4793-b5b7-b334dfe8393c"
+
 [compat]
 julia = "1"
 
