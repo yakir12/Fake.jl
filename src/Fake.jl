@@ -3,6 +3,8 @@ module Fake
 using CairoMakie, MakieLayout, FileIO, AbstractPlotting
 CairoMakie.activate!()
 
+set_theme!(font = AbstractPlotting.findfont("Helvetica"))
+
 function bad1()
     scene, layout = layoutscene()
     ax = layout[1,1] = LAxis(scene)
