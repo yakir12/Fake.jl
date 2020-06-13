@@ -1,0 +1,13 @@
+name = "Fake"
+uuid = "d73b5ffd-5272-48a9-96ff-8386bd2bfe39"
+authors = ["yakir12 <12.yakir@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
